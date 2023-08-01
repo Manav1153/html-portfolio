@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    .movie-ranking-img {
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 12px 20px;
+      margin: 50px;
+      border: none;
+      background-color: lightseagreen;
+      transition: all ease 0.5s ;
+      
+    }
+
+    img:hover {
+      box-shadow: 10px 10px 0px;
+    }
+    .link-button{
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      border-radius: 3px;
+      padding: 12px 20px;
+      border: none;
+      color: #fff;
+      background-color: rgb(181, 47, 47);
+      transition: all ease 0.5s;
+
+    }
+    
+    .link-button:hover{
+      box-shadow: 5px 5px 0px black;
+
+    }
+    .birthday-invite-img {
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 12px 20px;
+      margin: 50px;
+      border: none;
+      background-color: #B565A7;
+      transition: all ease 0.5s ;
+      
+    }
+
+    img:hover {
+      box-shadow: 10px 10px 0px ;
+    }
+    .heading1{
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 12px 20px;
+      margin: 50px;
+      border: none;
+      transition: all ease 0.5s ;
+      
+
+    }
+    .heading1:hover {
+      cursor: pointer;
+      box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    }
+    .heading2{
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 12px 20px;
+      margin: 50px;
+      border: none;
+      transition: all ease 0.5s ;
+      
+
+    }
+    .heading2:hover {
+      cursor: pointer;
+      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    }
+    .button-56 {
+      align-items: center;
+      background-color:  #CA1551;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #ddd;
+      cursor: pointer;
+      display: flex;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button-56:after {
+      background-color: #111;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1;
+    }
+
+    .button-56:hover:after {
+      transform: translate(0, 0);
+    }
+
+    .button-56:active {
+      background-color: #ffdeda;
+      outline: 0;
+    }
+
+    .button-56:hover {
+      outline: 0;
+    }
+
+    @media (min-width: 768px) {
+      .button-56 {
+        padding: 0 40px;
+      }
+    }
+    body{
+      background-color:rgb(236, 229, 217);
+    }
+
+    
+    
+
+
+
+  </style>
+</head>
+<body>
+  <h1 class="heading1" style="font-family: 'Poppins', sans-serif; text-align: center;font-size: 72px;background: -webkit-linear-gradient(#fc1515, #222020);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" >Manav Malhotra's Portfolio</h1>
+  <h2 class="heading2" style="font-family: 'Poppins', sans-serif;text-align: center;font-size: 48px;background: -webkit-linear-gradient(#06cb13, #5711da);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">I'm a Web Developer</h2><hr style="border-top: 3px dashed rgb(0, 0, 0);">  
+  <button class="button-56">Movie Ranking Project</button><br>
+  <img class="movie-ranking-img" src="Picture2.png" alt="project-photo" >
+  <button class="button-56">Birthday Invite</button><br>
+  <img class="birthday-invite-img" src="Picture3.png" alt="project-photo" ><hr style="border-top: 3px dashed rgb(0, 0, 0);">
+  <button class="button-56"  onclick=" window.location.href = 'https://www.linkedin.com/in/manav-malhotra-026030202/';" >About Us</button><br><br>
+  <button class="button-56" onclick="window.open('tel:+917042268011');">Contact Me</button>
+
+
+
+</body>
+</html>
